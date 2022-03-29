@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.page-header{
+    background-color: #f1f1f1;
+}
+.page-header h1{
+   padding: 20px 0px;
+   margin: 0 auto;
+}
+.mt-1{
+    margin-top: 20px;
+}
+.input-text{
+    outline: none;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+}
+.input-text:active{
+    border: 1px solid #bbb;
+}
+.input-text:focus{
+    border: 1px solid #aaa;
+}
+.p-1{
+    padding: 20px 0px;
+}
+mat-form-field{
+    width: 100%;
+}
